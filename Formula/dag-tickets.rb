@@ -3,26 +3,26 @@ class DagTickets < Formula
   desc "DAG-aware batch driver for GitHub-issue to PR pipelines"
   homepage "https://github.com/CaicoLeung/dag-tickets"
   license "MIT"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.0/dag-tickets-darwin-arm64.tar.gz"
-      sha256 "ea64e010dcd286464923f82f16d179744355ae164e9b6d0c6ae74e929c62efe7"
+      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.1/dag-tickets-darwin-arm64.tar.gz"
+      sha256 "71ba0a2e911b3f4060aac8c3ed82d668b183d420a9f99fac2a86eab9f5ad1e8b"
     end
     on_intel do
-      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.0/dag-tickets-darwin-x64.tar.gz"
-      sha256 "daf23c874be39ad46d4d024ac83edc02de950c5b64158498b1919d45e0509963"
+      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.1/dag-tickets-darwin-x64.tar.gz"
+      sha256 "c9175065ae89f5d19653fc896cd7439640dc4958ac7d245ef17221922abc5139"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.0/dag-tickets-linux-arm64.tar.gz"
-      sha256 "a761caeb79d84e773220b2b643b5226ea0d5098258fa56124a408c9fb9237151"
+      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.1/dag-tickets-linux-arm64.tar.gz"
+      sha256 "ef9f91abd00cc0dc69eb7b1b5eae2915036cb25a536651a5568e92485e28b9f3"
     end
     on_intel do
-      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.0/dag-tickets-linux-x64.tar.gz"
-      sha256 "e4043839f735f784ca8b8940f6d554e89232727ad16d844bd639c70507bad585"
+      url "https://github.com/CaicoLeung/dag-tickets/releases/download/v0.3.1/dag-tickets-linux-x64.tar.gz"
+      sha256 "3b81d4140f37b8559666ee5dc95e27bc86a523fc630fa99f62afae6da5712164"
     end
   end
 
